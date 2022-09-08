@@ -67,5 +67,6 @@ this function will disable all keybindings that are used for movement.
 MoveUtil.stop();
 ```
 
+That's crazy right you can do all this stuff in the Script API!
 
 
