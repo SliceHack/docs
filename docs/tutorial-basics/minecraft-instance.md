@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Implement Minecraft Instance
+# Minecraft Instance
 
 You can use the `mc` variable in the project to access the Minecraft instance
 
