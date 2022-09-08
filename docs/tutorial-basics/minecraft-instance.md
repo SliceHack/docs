@@ -18,4 +18,4 @@ function onUpdate() {
 }
 ```
 
-Thats crazy, right? You can now add events to your module with just 1 function!
+That's crazy right you can access the Minecraft instance in JavaScript!
