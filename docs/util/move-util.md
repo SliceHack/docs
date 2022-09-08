@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# Movement Utility
+# Movement
 
 There are quite a few things in the `MoveUtil` class that you can use to make easier movement scripts.
 
