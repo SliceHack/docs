@@ -9,7 +9,7 @@ there are a couple of things in the `RotationUtil` class that you can use to mak
 ## getDirection
 
 this function will return the direction off the player as a double based of the yaw. although
-this function is mostly used for the `MoveUtil.setStrafe` function.
+this function is mostly used for the `MoveUtil.strafe` function.
 
 ```js
 RotationUtil.getDirection();
