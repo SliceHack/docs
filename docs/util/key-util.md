@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Key
 
-There are a few things you can do to make playing with keys easier.
+There are a few things in the `KeyUtil` class you can use to make playing with keys easier.
 
 # moveKeys
 
