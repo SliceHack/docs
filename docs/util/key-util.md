@@ -4,6 +4,7 @@ sidebar_position: 3
 
 # Key
 
+There are a few things you can do to make playing with keys easier.
 
 # moveKeys
 
