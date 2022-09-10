@@ -23,4 +23,3 @@ this function will return a boolean if an entity is in the field of view of the 
 // fov can be any number through 0-360
 RotationUtil.isInFov(entity, fov);
 ```
-
