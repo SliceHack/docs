@@ -6,6 +6,14 @@ sidebar_position: 2
 
 You can use `script.on` to add events to your module
 
+# Init
+
+this event is called when the module is initialized
+
+```js
+script.on('init', function (){});
+```
+
 # Enable
 
 this event is called when the module is enabled
