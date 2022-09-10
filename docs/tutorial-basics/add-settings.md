@@ -40,7 +40,7 @@ const mode = script.registerMode("Mode", "1", "2", "3", ...etc);
 - `setType(type)` - Sets the type of the setting
 ```js
 // (name of the setting) name, (min) min, (max) max, (the defualt value) value, (FLOAT, DOUBLE, INTEGER, LONG) type
-const number = script.registerNumber("Number", 0, 10, 5, FLOAT);
+const number = script.registerNumber("Number", 0, 10, 5, Type.FLOAT);
 ```
 
 That's crazy right you can register a setting with one line!
