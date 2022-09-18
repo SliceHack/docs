@@ -8,7 +8,7 @@ To create a module you must first create a file at `%Slice-Dir%/Scripts/<FileNam
 
 The next thing you want to do is write a `script.exports` for the script to understand
 
-There are only 3 variables you can use in the `script.exports` variable
+There are only 3 variables you can use in the `script.exports` object
 
 You can use `name` to set the name of the module
 
