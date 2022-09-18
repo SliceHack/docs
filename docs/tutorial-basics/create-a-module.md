@@ -6,7 +6,7 @@ sidebar_position: 1
 
 To create a module you must first create a file at `%Slice-Dir%/Scripts/<FileName>.js`
 
-The next thing you want to do is write a `script.exports` for the script to understand
+The next thing you want to do is write a `script.exports` for the script to understand the modules name, description and category.
 
 There are only 3 variables you can use in the `script.exports` object
 
