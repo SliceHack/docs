@@ -22,9 +22,9 @@ The main class is what slice will use to initialize your project. with
 
 class must extend `com.sliceclient.script.SliceScript`
 
-Method will call `onEnable()` once the project is initialized.
+will call Method `onEnable()` once the project is initialized.
 
-Method will call `onDisable()` once the project is shutdown.
+will call Method `onDisable()` once the project is shutdown.
 
 ## Example
 
