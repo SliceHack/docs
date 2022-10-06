@@ -5,7 +5,7 @@ sidebar_position: 1
 # How to load a jar file
 
 The `script.json` is what slice will read from the jar classpath
-to determine what to do with the jar file. It is a json file that
+to determine what to do with the project. It is a json file that
 
 ## Example
 
