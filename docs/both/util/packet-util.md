@@ -15,6 +15,10 @@ const C03PacketPlayer = Java.type("net.minecraft.network.play.client.C03PacketPl
 PacketUtil.sendPacket(new C03PacketPlayer()); // the Flying packet in bukkit (for some reason)
 ```
 
+```Java
+PacketUtil.sendPacket(new C03PacketPlayer()); // the Flying packet in bukkit (for some reason)
+```
+
 ## sendPacketNoEvent
 
 This function will send a packet to the server without an event.
@@ -25,6 +29,11 @@ const C03PacketPlayer = Java.type("net.minecraft.network.play.client.C03PacketPl
 PacketUtil.sendPacketNoEvent(new C03PacketPlayer());
 ```
 
+
+```java
+PacketUtil.sendPacketNoEvent(new C03PacketPlayer());
+```
+
 ## isMovementPacket
 
 This function will return if the packet is a movement packet or not.
@@ -32,4 +41,8 @@ This function will return if the packet is a movement packet or not.
 ```js
 const C04PacketPlayerPosition = Java.type("net.minecraft.network.play.client.C03PacketPlayer.C04PacketPlayerPosition");
 PacketUtil.isMovementPacket(new C04PacketPlayerPosition()); // returns a boolean
+```
+
+```js
+PacketUtil.isMovementPacket(new C03PlayerPlayer.C04PacketPlayerPosition()); // returns a boolean
 ```

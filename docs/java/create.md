@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# How to create set up a project
+# Set up a project
 
 The `script.json` is what slice will read from the jar classpath
 to determine what to do with the project. It is a json file that

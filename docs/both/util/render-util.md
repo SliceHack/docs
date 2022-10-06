@@ -55,3 +55,12 @@ RenderUtil.glColor(hex);
 const Color = Java.type("java.awt.Color");
 RenderUtil.glColor(new Color(255, 255, 255));
 ```
+
+
+```java
+/* you can either do an object 
+    of a Color from java.awt or just do a value that returns from .getRGB() */
+RenderUtil.glColor(hex);
+
+RenderUtil.glColor(new java.awt.Color(255, 255, 255));
+```
