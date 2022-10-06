@@ -7,7 +7,7 @@ sidebar_position: 1
 The `script.json` is what slice will read from the jar classpath
 to determine what to do with the project. It is a json file that
 
-## Example
+## JSON Example
 
 ```json
 {
@@ -26,7 +26,7 @@ will call Method `onStartup()` once the project is initialized.
 
 will call Method `onShutdown()` once the project is shutdown.
 
-## Example
+## Main class example
 
 ```java
 package com.example;
