@@ -22,9 +22,9 @@ The main class is what slice will use to initialize your project. with
 
 class must extend `com.sliceclient.script.SliceScript`
 
-will call Method `onEnable()` once the project is initialized.
+will call Method `onStartup()` once the project is initialized.
 
-will call Method `onDisable()` once the project is shutdown.
+will call Method `onShutdown()` once the project is shutdown.
 
 ## Example
 
@@ -39,7 +39,7 @@ public class SomeClass extends SliceScript {
      * Called when slice starts up.
      * */
     @Override
-    public void onEnable() {
+    public void onStartup() {
         System.out.println("Hello World!");
     }
     
@@ -47,7 +47,7 @@ public class SomeClass extends SliceScript {
      * Called when slice shuts down.
      * */
     @Override
-    public void onDisable() {
+    public void onShutdown() {
         System.out.println("Goodbye World!");
     }
 }
